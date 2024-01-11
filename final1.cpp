@@ -1,19 +1,26 @@
+   #include <iostream>
+   using namespace std;
+   
     void ft_ahmet(){
-        int
         
-        char cevap;
+        int cevap;
 
-        cout << "Yarrami yalamak istermisin ? \n";
-        cin >> cevap ;
+        cout << "Dondurmayı yalamak istermisin ? \n";
+        cin >> cevap;
 
         switch (cevap) {
-            case 'A':
-            cout << "Posta başarili /n";
+            case 1:
+            cout << "Yalama başarili \n";
             break;
-            case 'B':
-            cout << "olmadı";
+            case 2:
+            cout << "olmadikiine \n";
+            break;
             default:
-            cout << "olmadı";
+            cout << "olmadi";
         }
     // Swith case = yapısında sadece int ve char değişkenleri ile işlem yapılır string olmaz...
     }
+int main()
+{
+    ft_ahmet();
+}
